@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Librario - Document searching service</title>
+        <link type="text/css" href="flat-ui/dist/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link type="text/css" href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    	<link type="text/css" href="flat-ui/dist/css/flat-ui.min.css" rel="stylesheet">
+
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+        <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+
+        <style>
+            html, body {
+                background-color: #fafafa;
+            }
+            #results > .col-sm-* {
+                margin: 10px 0;
+            }
+            .curly {
+                font-family: 'Pacifico', cursive;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 text-center">
+                    <br>
+                    <h1 class="curly" style="color:#1abc9c;margin-bottom:0px">Librario</h1>
+                    <p class="text-center curly" style="color:#556270">Document searching service</p>
+                    <br>
+                    <form class="form" id="string">
+                        <div class="form-group">
+                            <textarea class="form-control input-lg" id="paragraph" rows="10" name="text" form="string" placeholder="Enter string here..." style="resize: vertical;"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="btn btn-embossed btn-lg btn-primary" onclick="senddata();" id="submitbtn">
+                                Submit
+                            </div> 
+                        </div>
+                    </form>
+        
+                    <div class="text-center" id="results-wrapper" style="margin-bottom: 2em;" hidden>
+                        <br>
+                        <p style="color:#ccc; text-align: center;">&bull;</p>
+                        <br>
+                        <h4><center>Results</center></h4>
+                        <div class="table-responsive">
+                            <table class="table" id="results">
+                                <tr>
+                                    <th class="col-md-8">String</th>
+                                    <th class="col-md-4">Document's name</th>
+                                </tr>
+                            </table>
+                        </div>      
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <br>
+                    <p style="color:#ccc">&bull;</p>
+                    <br>
+                    <p style="font-size:.8em; color:#aaa">
+                    Created by Aikdanai Sidhikosol - Wassapon Watanakeesuntorn - Padungkiet Tamasee - Jitlada Supreeyaporn - Kanitkorn Sujautra - Sippakorn Widsankun<br>
+                    Web Application Development - Advisor: Paruj Ratanaworabhan, Ph.D.
+                    </p>
+                </div>
+                <br>
+            </div>
+        </div>
+
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
