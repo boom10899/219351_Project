@@ -12,3 +12,4 @@
 
 #### Websites
 * [Librario (54.169.138.7)](http://54.169.138.7/)
+* [Presentation Slide](https://docs.google.com/presentation/d/1AliwcXtlH6oAbHnrAManUWkt48Ndxo6mGPLOWOIab6I/edit?usp=sharing)
