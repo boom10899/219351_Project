@@ -1,4 +1,4 @@
-# 01204498 - Web Application Development Homework
+# 01204498 - Web Application Development
 
 ## Librario (Final Project)
 
